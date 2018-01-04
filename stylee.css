@@ -5,7 +5,7 @@ body{
     margin: auto;
 }
 
-.rectangle{
+.header{
     width: 1000px;
     background-color: white;
     height: auto;
@@ -26,63 +26,27 @@ img{
     padding-left: 10px;
 }
 
-#linee{
+.navigation{
     width: 1000px;
 }
 
-#line1{
+a{
     float: left;
     width: 160px;
-    font-size: 14px;
+    font-size: 16px;
     padding-top: 13px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
+    text-decoration: none;
+    color: black;
 }
 
-#line1:hover{
-    background-color: beige;
+a:hover{
+    transform: scale(1.2);
 }
 
-#line2{
-    float: left;
-    width: 160px;
-    font-size: 14px;
-    padding-top: 13px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-}
 
-#line2:hover{
-    background-color: beige;
-}
-
-#line3{
-    float: left;
-    width: 160px;
-    font-size: 14px;
-    padding-top: 13px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-}
-
-#line3:hover{
-    background-color: beige;
-}
-
-#line4{
-    float: left;
-    width: 160px;
-    font-size: 14px;
-    padding-top: 13px;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    text-align: center;
-}
-
-#line4:hover{
-    background-color: beige;
-}
-
-.movi{
+.movie{
     border: none;
     margin: auto;
 }
@@ -91,77 +55,51 @@ video{
     height: 500px;
 }
 
-.header1{
+.preWorkout{
     background-image: url(img/minotaut_graphic.png);
     width: 1000px;
     background-position: center;
     background-size: cover;
 }
 
-#form{
-    font-size: 19px;
+.form{
+    font-size: 21px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
     letter-spacing: 1px;
-    margin-left: 24px;
-    float: left;
+    text-align: inherit;
 }
 
-#concentration{
-    font-size: 19px;
+.concentration{
+    font-size: 21px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
     letter-spacing: 1px;
-    margin-left: 30px;
-    float: left;
+    text-align: inherit;
 }
 
-#strong{
-    font-size: 19px;
+.strong{
+    font-size: 21px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: black;
     letter-spacing: 1px;
-    margin-left: 30px;
-    float: left;
+    padding-left: 10px;
 }
 
-#square1{
+.firstQuality, .secondQuality, .thirdQuality{
     float: left;
-    width: 260px;
-    padding-top: 20px;
-    padding-left: 20px;
-    
+    width: 300px;
+    padding-top: 30px;
 }
 
-#square2{
-    float: left;
-    width: 260px;
-    padding-top: 20px;
-    padding-left: 50px;
+.firstQuality{
+     margin-left: 60px;
 }
 
-#square3{
-    float: left;
-    width: 260px;
-    padding-top: 20px;
-    padding-left: 30px;
-}
-
-img.arrow1{
+img.arrow1, img.arrow2, img.arrow3{
     width: 10%;
     height: 10%;
-    padding-left: 20px;
-}
-
-img.arrow2{
-    width: 10%;
-    height: 10%;
-    padding-left: 35px;
-}
-
-img.arrow3{
-    width: 10%;
-    height: 10%;
+    margin-right: 10px;
 }
 
 .belt{
@@ -200,22 +138,22 @@ img.small{
 
 .text{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 25px;
-    text-align: justify;
+    text-align: inherit;
     padding-left: 40px;
 }
 
 .left{
     float: left;
     width: 400px;
+    margin-left: 30px;
 }
 
 .right{
-    width: 450px;
-    padding-right: 100px;
+    width: 440px;
     float: left;
-    margin-right: 50px;
+    margin-left: -60px;
 }
 
 img.shot{
@@ -223,44 +161,39 @@ img.shot{
     width: 170%; 
 }
 
-.one{
+.one, .two{
     width: 500px;
     height: 600px;
     float: left;
 }
 
-#box1{
+.box1{
     width: 380px;
-    height: 260px;
+    height: 250px;
     font-family: 'Anton', sans-serif;
     text-align: inherit;
     font-size: 30px;
     letter-spacing: 3px;
     background-color: lightgrey;
     padding-left: 120px;
-    padding-top: 40px;
+    padding-top: 50px;
     line-height: 120%;
+    
 }
 
-#box2{
+.box2{
     width: 500px;
     height: 300px;
     background-image: url(img/bitmap_001.jpg);
 }
 
-.two{
-    width: 500px;
-    height: 600px;
-    float: left;
-}
-
-#box3{
+.box3{
     width: 500px;
     height: 300px;
     background-image: url(img/Jacek_bitmap.jpg);
 }
 
-#box4{
+.box4{
     width: 440px;
     height: 300px;
     background-color: lightgrey;
@@ -281,71 +214,73 @@ img.shot{
     padding-left: 15px;
 }
 
-#definition{
+.pompaText{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 17px;
     padding-top: 5px;
+    text-align:inherit;
+    padding-right: 20px;
 }
 
 .black{
     padding-top: 20px;
 }
 
-.picture{
+.composition{
     width: 1000px;
     height: 600px;
     background-image: url(img/bitmap_002.jpg);
     background-size: 100%;
 }
 
-#timetext{
+.timeText{
     font-family: 'Anton', sans-serif;
     font-size: 50px;
     color: white;
     padding-top: 40px;
     padding-left: 40px;
-    line-height: 95%;
 }
 
 .clock{
-    padding-left: 40px;
+    padding: 10px 0 0 40px;
     height: 16%;
     width: 9%;
-    padding-bottom: 10px;
 }
 
-#definiton2{
+.toleranceText{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     letter-spacing: 1px;
+    padding-top: 150px;
     padding-left: 40px;
 }
 
-#definition3{
+.effectsText{
     color: white;
-    font-size: 11px;
+    font-size: 15px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-top: 5px;
     padding-left: 40px;
+    line-height: 18px;
 }
 
-.white{
+.whiteBelt{
     padding-left: 40px;
     padding-top: 30px;
     padding-bottom: 10px;
 }
 
-#slog{
+.slogan{
     letter-spacing: 2px;
     font-family: 'Passion One', cursive;
     font-size: 60px;
-    padding-left: 40px;
-    line-height: 75%;
-    padding-top: 10px;
+    margin-top: 120px;
+    width: 500px;
+    margin-left: 40px;
 }
 
-.element{
+.components{
     height: 500px;
     width: 1000px;
     background-image: url(img/minotaut_background_graphic.png);
@@ -353,19 +288,19 @@ img.shot{
     background-position: center;
 }
 
-#ls{
+.textAboutMinotaur{
     width: 600px;
     height: 500px;
     float: left;
 }
 
-#rs{
+.rightSiteComponents{
     width: 300px;
     height: 500px;
     float: left;
 }
 
-#minotaur{
+.minotaur{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
     padding-left: 80px;
@@ -381,19 +316,19 @@ img.up{
     padding-right: 5px;
 }
 
-.list1{
+.firstArrow{
     font-family: 'Passion One', cursive;
     font-size: 18px;
     letter-spacing: 1px;
 }
 
-.list2{
+.secondArrow{
     font-family: 'Passion One', cursive;
     font-size: 18px;
     letter-spacing: 1px;
 }
 
-.list3{
+.thirdArrow{
     font-family: 'Passion One', cursive;
     font-size: 18px;
     letter-spacing: 1px;
@@ -406,52 +341,51 @@ img.up{
     margin-left: 30px;
 }
 
-img.whitearrow{
+.whiteArrow{
     height: 10%;
     width: 5%;
-    margin-top: 60px;
-    margin-left: 40px;
+    margin: 20px 0 0 40px;
 }
 
-img.tiny{
+img.down{
     height: 2%;
-    width: 3%;
+    width: 2%;
     padding-top: 3px;
     padding-right: 10px;
 }
 
-#big{
+.bigTextComponents{
     font-family: 'Passion One', cursive;
     font-size: 60px;
     line-height: 70%;
     padding-top: 80px;
 }
 
-.list4{
+.fourthArrow{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
     padding-top: 50px;
 }
 
-.list5{
+.fifthArrow{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-.list6{
+.sixthArrow{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     letter-spacing: 1px;
 }
 
-#oneone{
+.firstLine{
     widows: 1000px;
     height: 225px;
 }
 
-#pic1{
+.leftRectangle{
     height: 225px;
     width: 500px;
     background-image: url(img/man_with_shaker.png);
@@ -459,7 +393,7 @@ img.tiny{
     background-size: cover;
 }
 
-#pic2{
+.rightRectangle{
     height: 225px;
     width: 500px;
     background-image: url(img/man_with_barbell.png);
@@ -467,14 +401,14 @@ img.tiny{
     background-size: cover;
 }
 
-#twotwo{
+.secondLine{
     widows: 1000px;
     height: 150px;
     background-color: yellow;
 }
 
 
-#threethree{
+.thirdline{
     widows: 1000px;
     height: 225px;
     background-image: url(img/barbell_bitmap.jpg);
@@ -499,10 +433,9 @@ img.trainer{
     margin-left: 6px;
     margin-right: 5px;
     float: left;
-    
 }
 
-#non{
+.noSideEffects{
     font-family: 'Passion One', cursive;
     font-size: 44px;
     color: white;
@@ -511,45 +444,42 @@ img.trainer{
     line-height: 85%;
 }
 
-#tx{
+.textNoSideEffects{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 20px;
     color: white;
     padding-left: 50px;
 }
 
-#tx2{
+.textBorder{
     font-family: 'Passion One', cursive;
-    font-size: 35px;
+    font-size: 30px;
     color: white;
     padding-left: 50px;
     padding-top: 25px;
-    line-height: 90%;    
 }
 
-img.bit{
+img.bitMap{
     height: 30%;
     width: 15%;
     float: right;
-    padding-right: 40px;
-    padding-bottom: 10px;
+    padding: 0 40px 10px 0;
 }
 
-#qu{
+.smallerText{
     font-family: 'Anton', sans-serif;
     font-size: 28px;
     text-align: center;
-    padding-top: 20px;
-    line-height: 50%
+    padding-top: 5px;
 }
 
-#ordersl{
+.bigerText{
     font-family: 'Anton', sans-serif;
     font-size: 79px;
     text-align: center;
 }
 
-#onpower{
+.powerText{
     font-family: 'Anton', sans-serif;
     font-size: 30px;
     line-height: 98%;
@@ -559,7 +489,7 @@ img.bit{
     color: white;
 }
 
-#champion{
+.championText{
     font-family: 'Anton', sans-serif;
     font-size: 15px;
     color: white;
@@ -568,25 +498,26 @@ img.bit{
     margin-left: 20px;
 }
 
-#profesional{
+.profesional{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 17px;
     color: white;
     margin-left: 20px;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
-#prodact{
+.productMinotaur{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 15px;
     margin-left: 20px;
     color: white;
     margin-top: 20px;
     letter-spacing: 2px;
+    font-weight: 600;
 }
 
-#train1{
-    background-image: url(img/Fernando_BW.jpg);
+.firstTrainer, .secondTrainer, .thirdTrainer{
     height: 400px;
     width: 322px;
     float: left;
@@ -597,30 +528,17 @@ img.bit{
     background-size: cover;
 }
 
-#train2{
-    background-image: url(img/Ratusznik_BW.jpg);
-    height: 400px;
-    width: 322px;
-    float: left;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    background-size: cover;
+.firstTrainer{
+    background-image: url(img/Fernando_colour.jpg);
 }
 
-#train3{
-    background-image: url(img/Feri_colour.jpg);
-    height: 400px;
-    width: 322px;
-    float: left;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 5px;
-    background-size: cover;
+.secondTrainer{
+    background-image: url(img/Ratusznik_colour.jpg);
 }
 
+.thirdTrainer{
+ background-image: url(img/Feri_colour.jpg);
+}
 .name{
     font-family: 'Anton', sans-serif;
     font-weight: 600;
@@ -632,34 +550,36 @@ img.bit{
     font-size: 15px;
 }
 
-img.sbb{
+.blackBelt1{
     padding-top: 10px;
+    margin-left: -10px;
 }
 
-img.sbb2{
-   padding-top: 30px;
+.blackBelt{
+    padding-top: 30px;
+    margin-left: -10px;
 }
 
-#opp{
+.description{
     height: 300px;
     width: 1000px;
 }
-.op{
+.firstTrainerDescription{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 13px;
-    padding-top: 40px;
+    padding: 40px 5px 0 5px;
 }
 
-.oppp{
-    height: 300px;
+.trainerDescription{
+    height: 200px;
     width: 322px;
     float: left;
     margin-left: 10px;
 }
 
 
-.op2{
-    padding-top: 60px;
+.secondAndThirdTrainerDescription{
+    padding: 60px 5px 0 5px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 13px;
 }
